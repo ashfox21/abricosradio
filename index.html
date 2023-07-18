@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <title>Abricos radio</title>
+</head>
+
+<body>
+    <div class="background">
+        <div class="main">
+            <header class="header">
+                <div class="header__top">
+                    <a href="#" class="header__logo">
+                        <img src="images/logo_radio_cat_5 (1).png" alt="logo">
+                    </a>
+                    <a href="#" class="header__moderation">
+                        <span>
+                            Модерація
+                        </span>
+                        <div class="header__moderation-counter">
+                            8
+                        </div>
+                    </a>
+                    <a href="#" class="header__about">Про нас</a>
+                </div>
+                <div class="header__player">
+                    <audio src="audio/Hit the Road Jack.mp3" class="header__player-audio" autoplay></audio>
+                    <div class="header__player-main">
+                        <div class="header__player-bar">
+                            <div class="header__player-bar-line">
+                                <div class="header__player-bar-cyrcle"></div>
+                            </div>
+                        </div>
+                        <div class="header__player-info">
+                            <p class="header__player-time-now">
+                                1:18
+                            </p>
+                            <p class="header__player-song-name">
+                                Pink Bubble Gum
+                            </p>
+                            <p class="header__player-time">
+                                1:20
+                            </p>
+                        </div>
+                    </div>
+                    <button class="header__player-next">
+                        <img src="images/next.png" alt="">
+                    </button>
+                </div>
+            </header>
+
+            <section class="intro">
+                <div class="intro__main">
+                    <div class="intro__forms">
+                        <label for="name">Назва</label>
+
+                        <input  class="intro__forms-name" type="text" id="name" name="name" required minlength="4">
+
+                        <label for="actor">Виконавець</label>
+
+                        <input  class="intro__forms-actor" type="text" id="actor" name="name" required minlength="4">
+                        <div class="intro__buttons">
+                            <button class="intro__buttons-get">Додати трек</button>
+
+                            <button class="intro__buttons-send">
+                                Надіслати
+                            </button>
+                        </div>
+                    </div>
+                    <p>
+                        Привіт, друзі!
+                        Ми раді бачити вас на шкільному радіо і з нетерпінням чекаємо на ваші запропоновані пісні, які
+                        ми можемо додати до нашого плейлисту!
+                        <br> <br>
+                        Але пам'ятайте, що ми маємо певні критерії відбору треків. На жаль, ми не можемо приймати пісні,
+                        де є нецензурна лексика, або з російською мовою. Але не засмучуйтесь, є багато крутих пісень, і
+                        ми з нетерпінням чекаємо на ваші пропозиції.
+                    </p>
+                </div>
+                <p>
+                    Ми хочемо, щоб наш плейлист був наповнений приємними для прослуховування треками.
+                    Тому будьте ласкаві, обирайте пісні, які ви справді любите і які будуть приємними для кожного.
+                    Дякуємо за вашу увагу та підтримку нашого шкільного радіо!
+                    Давайте разом зробимо наше радіо ще крутішим та наповнимо його кращими треками!
+                </p>
+            </section>
+        </div>
+    </div>
+    <script src="js/index.js"></script>
+</body>
+
+</html>

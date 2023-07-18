@@ -1,0 +1,244 @@
+ * {
+     box-sizing: border-box;
+ }
+
+ body,
+ a {
+     color: #fff;
+     text-decoration: none;
+     font-family: 'Ubuntu', sans-serif;
+     font-weight: 400;
+     font-size: 24px;
+     line-height: 28px;
+ }
+
+ .background {
+     background-image: url(../images/bgImage.jpg);
+     background-size: cover;
+     background-repeat: no-repeat;
+     max-width: 1920px;
+     min-height: 1080px;
+ }
+
+ .main {
+     max-width: 600px;
+     min-height: 614px;
+     margin: 0 auto;
+     background: linear-gradient(rgba(255, 255, 255, 0.144), rgb(255, 255, 255));
+     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+     border-bottom-right-radius: 100px;
+     border-bottom-left-radius: 100px;
+     padding: 23px 28px 30px;
+     padding-bottom: 100px;
+ }
+
+ .header {}
+
+ .header__top {
+     display: flex;
+     justify-content: center;
+     flex-wrap: wrap;
+     align-items: center;
+ }
+
+ .header__top::after {
+     border: 1px solid #FFFFFF;
+     box-shadow: 0px 0px 4px #FFFFFF;
+     width: 100%;
+     content: "";
+     margin-top: 16px;
+ }
+
+ .header__logo img {
+     width: 34px;
+     height: 34px;
+ }
+
+ .header__logo {
+     display: flex;
+     align-items: center;
+     margin-right: 135px;
+ }
+
+ .header__moderation {
+     display: flex;
+     margin-right: 94px;
+     gap: 0 7px;
+     align-items: center;
+
+ }
+
+ .header__moderation-counter {
+     width: 37px;
+     height: 37px;
+     border: 2px solid #fff;
+     border-radius: 100%;
+     box-shadow: 0px 0px 4px #FFFFFF;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+
+ .header__about {}
+
+ /* header player start*/
+ .header__player {
+     display: flex;
+     justify-content: center;
+     flex-wrap: wrap;
+     align-items: center;
+     margin-top: 24px;
+ }
+
+ .header__player::after {
+     border: 1px solid #FFFFFF;
+     box-shadow: 0px 0px 4px #FFFFFF;
+     width: 100%;
+     content: "";
+     margin-top: 16px;
+ }
+
+ .header__player-main {
+     max-width: 443px;
+     min-width: 80.5%;
+
+ }
+
+ .header__player-bar {}
+
+ .header__player-bar-line {
+     height: 8px;
+     width: 100%;
+     background-color: #FFFFFF;
+     border-radius: 25px;
+     filter: drop-shadow(0px 0px 9px #FFFFFF);
+     display: flex;
+     align-items: center;
+ }
+
+ .header__player-bar-cirkle {
+     width: 21.1px;
+     height: 21px;
+     background: #FEC4EA;
+     border: 2px solid #FFFFFF;
+     box-shadow: 0px 0px 10px #FFFFFF;
+     border-radius: 22px;
+ }
+
+ .header__player-info {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     width: 100%;
+ }
+
+ .header__player-time,
+ .header__player-time-now {
+     font-weight: 700;
+     font-size: 10px;
+     line-height: 12px;
+     padding-top: 5px;
+ }
+
+ .header__player-song-name {
+     font-weight: 700;
+     font-size: 11px;
+     line-height: 13px;
+ }
+
+ .header__player-next {
+     background: none;
+     border: 2px solid #FFFFFF;
+     filter: drop-shadow(0px 0px 9px #FFFFFF);
+     border-radius: 52px;
+     width: 52px;
+     height: 52px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-left: 3.6%;
+     margin-top: -10px;
+ }
+
+ /* forms start */
+
+ .intro {
+     font-family: 'Ubuntu', sans-serif;
+     font-weight: 400;
+     font-size: 12px;
+     line-height: 14px;
+     letter-spacing: 0.03em;
+     color: #0149A6;
+ }
+
+ .intro__main {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-wrap: wrap;
+ }
+
+ .intro__main p {
+     max-width: 235px;
+     margin-left: 38px;
+ }
+
+ .intro__forms {
+     max-width: 222px;
+ }
+
+ .intro__forms label {
+     display: block;
+     font-size: 11px;
+     line-height: 13px;
+     color: #FFFFFF;
+     margin-top: 15px;
+     margin-left: 3px;
+     margin-bottom: 3px;
+ }
+
+ .intro__forms-name,
+ .intro__forms-actor {
+     padding: 0 10px;
+     width: 100%;
+     height: 22px;
+     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+     border-radius: 15px;
+     border: none;
+     color: #0149A6;
+ }
+
+ .intro__forms-actor {}
+
+ .intro__buttons {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-wrap: wrap;
+     margin-top: 27px;
+     gap: 20px;
+     
+ }
+
+ .intro__buttons-get {
+     display: block;
+     width: 100px;
+ }
+
+ .intro__buttons-send,
+ .intro__buttons-get {
+     height: 35px;
+     background-color: #0149A6;
+     border: none;
+     font-family: 'Ubuntu', sans-serif;
+     font-weight: 400;
+     font-size: 11px;
+     line-height: 13px;
+     text-align: center;
+     color: #FFFFFF;
+     width: 100px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     border-radius: 20px;
+ }
